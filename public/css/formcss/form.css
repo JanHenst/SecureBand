@@ -1,0 +1,106 @@
+.alles {
+  margin: 10px auto;
+  margin-bottom: 8.2em;
+  border: solid;
+  height: 22em;
+  width: 28em;
+  background: #ccccff;
+  background-color: #d1d1e0;
+  color: #666666;
+  border-width: 4px;
+  border-radius: 2px;
+}
+
+.head {
+  text-align: center;
+  background-color:#a3a3c2;
+  color: white;
+  border-bottom: solid;
+  border-color: #666666;
+  width: 28em;
+  margin: 0 auto;
+  margin-top: -32.5px;
+  height: 4em;
+}
+
+h1 {
+  margin-top: 1em;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.inhoud {
+  margin: 2em;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.buttons {
+  margin-right: 6.5em;
+  margin-top: 2em;
+  float: right;
+}
+
+.butNo {
+  background-color: #e6e6ff;
+  border: solid #666666;
+  border-radius: 5px;
+  color: #AB001B;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.butNo:focus{outline: none;}
+.butYes:focus{outline: none;}
+
+.butYes {
+  background-color: #e6e6ff;
+  border: solid #666666;
+  border-radius: 5px;
+  color: green;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.butYes:hover {
+  background-color: #333;
+}
+
+.butNo:hover {
+  background-color: #333;
+}
+
+.error{
+  visibility: hidden;
+}
+
+/* responsive */
+@media screen and (min-width: 0px) and (max-width: 495px) {
+  .alles {
+    width: 22em;
+  }
+  .head {
+    width: 22em;
+  }
+  .buttons {
+    margin-right: 3.5em;
+  }
+}

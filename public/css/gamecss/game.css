@@ -1,0 +1,50 @@
+.game-infoTitle {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.game-infoText {
+  margin-bottom: 50px;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.game-infoImg {
+  margin-left: 25%;
+  margin-bottom: 10px;
+}
+
+/* responsive */
+@media screen and (min-width: 0px) and (max-width: 890px) {
+  .game-infoImg {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 740px) {
+  .game-infoImg {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 680px) {
+  .game-infoImg {
+    width: 500px;
+    height: 190px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 680px) {
+  .game-infoImg {
+    width: 500px;
+    height: 190px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .game-infoImg {
+    width: 350px;
+    height: 190px;
+  }
+}

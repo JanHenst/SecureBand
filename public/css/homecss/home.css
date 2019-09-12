@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e6;
+  font-family: sans-serif;
+}
+
+/* navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1.5em;
+  grid-template-columns: 1fr 1fr;
+}
+
+.navbar a:hover, .dropdown:hover .fa, .fa:focus {
+  background-color: red;
+}
+
+.navbar h1 {
+  color: white;
+  margin: 0;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.fa::before {
+  font-size: 2em;
+  cursor: pointer;
+  padding: 7px;
+  color: white;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  margin-top: -2em;
+  margin-right: 5em;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+/* body */
+.homeDiv {
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+  min-height:600px ;
+  max-height: 600px;
+  border: solid;
+  border-width: thin;
+  border-color: black;
+  width: 45%;
+  margin: 10px;
+  display: inline-block;
+  grid-template-columns: 1fr 1fr;
+}
+
+.homeTitle {
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+.DescriptionButton {
+  background-color: #e6e6e6;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 5px;
+  border: solid;
+  border-radius: 5px;
+  border-width: thin;
+  cursor: pointer;
+}
+
+.DescriptionButton:focus {outline: 0;}
+.DescriptionButton:active{background-color: #bfbfbf}
+
+.homeText {
+  padding: 5px;
+}
+
+.DescriptionButton {
+  float: none;
+}
+
+/* footer */
+footer {
+  float: left;
+  background-color: #333;
+  color: white;
+  width: 100%;
+}
+
+footer p {
+  margin-left: 12px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+/* de search en pagination  */
+.search {
+  text-align: center;
+  margin-right: 1.1em;
+}
+
+.search h2 {
+  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 8px;
+  font-family: sans-serif;
+}
+
+.search input {
+  font-family: sans-serif;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+#txtHint {
+  display: grid;
+  grid-template-rows: 1fr 10px;
+  margin-bottom: 2em;
+}
+
+.scps {
+  margin-left: 5%;
+}
+
+.paginas input {
+  font-size: 16px;
+  width: 2em;
+}
+
+.paginas {
+  margin-left: 47.1%;
+}
+
+/* responsive */
+
+@media screen and (min-width: 0px) and (max-width: 995px) {
+  .homeDiv {
+    display: inline-block;
+    width: 97%;
+    max-height: 1000px;
+  }
+
+  .HomeInfoAlles {
+    display: grid;
+    float: none;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .scps {
+    margin-left: 0%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 495px) {
+  .dropdown {
+    margin-top: 0.2;
+    margin-right: 42%;
+  }
+  .homeDiv {
+    width: 94%;
+  }
+}
