@@ -4,10 +4,10 @@ Site:  http://janvanderhenst.nl/myband/public/home
 
 SecureBand Analyse fase: [SecureBand-AnalyseFase]
 
-SecureBand Beveiligins Onderzoek: [Beveiligins-Onderzoek]
+SecureBand Beveiligins Onderzoek: [Beveiligings-Onderzoek]
 
 
 
 [SecureBand-AnalyseFase]: <SecureBand-AnalyseFase.pdf>
-[Beveiligins-Onderzoek]: <beveiligin-onderzoek.pdf>
+[Beveiligings-Onderzoek]: <Beveiliging-onderzoek.pdf>
 
